@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import s from '@/styles/Home.module.css';
 import styled from 'styled-components';
 
 const Title = styled.h1`
@@ -18,7 +17,7 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className={s.main}>
+			<main data-test-id="main">
 				<Title>Вика и Тёма</Title>
 			</main>
 		</>
